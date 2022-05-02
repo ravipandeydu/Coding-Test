@@ -9,10 +9,10 @@ masaiArr.forEach(function(el){
     colm1.innerText = el.match_number;
 
     var colm2 = document.createElement("td");
-    colm2.innertext = el.teamA;
+    colm2.innertext = el.team_A;
 
     var colm3 = document.createElement("td");
-    colm3.innertext = el.teamB;
+    colm3.innertext = el.team_B;
 
     var colm4 = document.createElement("td");
     colm4.innerText = el.match_date;
